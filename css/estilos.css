@@ -1,0 +1,250 @@
+/**Importamos las fuentes
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+/**Sección inicio*/
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    display:flex;
+    place-content: space-between;
+    border-bottom: 1px solid #F02E2E;
+    background-color: #f9f6f6 ;
+}
+
+header nav{
+    
+    display: contents;
+    place-content: space-between;
+    align-items: center;
+    width: 760px;
+      
+}
+
+header nav a{
+    display: flex;
+    place-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    align-content: center; 
+    border-style: #F02E2E ;      
+}
+
+.inicio{
+    background-color: rgba(93, 91, 91, 0.669);
+    background-size: auto;
+    background-position: center center;
+    color: white;
+}
+.inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+.inicio .contenido-seccion .título{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.inicio .contenido-seccion .foto{
+    position: static;
+    
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 300px;
+    height: 180px;   
+    border-radius: 50%;
+    border: 1px solid #F02E2E;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inicio .contenido-seccion .info h1{
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 8px;
+    
+}
+
+.inicio .contenido-seccion .info h3{
+    font-size: 14px;
+    letter-spacing: normal;
+    border-radius: 25px;
+    border: 1px solid #F02E2E;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+
+.inicio .contenido-seccion .redes .fa-brands{
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f9f6f6;
+    color:black;
+    border: 1px solid #F02E2E;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.inicio .contenido-seccion .info .redes :hover{
+    transform: scale(1.2);
+   
+}
+/** Sección acerca de mí*/
+
+.acercademi{  
+    background-color: #f9f6f6; 
+    padding: 50px 15px 30px 15px;
+    color:black;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+.acercademi .h2 titulo-seccion{
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    
+}
+.acercademi .h3 subtitulo-seccion{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: left;
+}
+.acercademi .personales{
+    column-count: auto;
+    margin-top: 20px;    
+    display: inline-block;
+    text-align: justify;
+}
+.acercademi .intereses{
+    column-count: auto;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: justify
+    
+}
+.acercademi .intereses .h3{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: left;
+}
+/** Sección antecedentes*/
+
+.antecedentes{  
+    background-color: #f9f6f6; 
+    padding: 50px 15px 30px 15px;
+    color: black;
+    max-width: 1000px;
+    margin: auto; 
+
+}
+.antecedentes .profesionales{
+    margin: 40px 0;
+
+}
+.antecedentes .profesionales .h3{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.antecedentes .profesionales .pre{
+    margin-top: 40px;
+    justify-content: space-around;    
+    text-align: left;
+}
+.antecedentes .trabajo{
+    margin-top: 40px;
+}
+.antecedentes .trabajo .pre{
+    margin-top: 40px;
+    justify-content: space-around;
+    text-align: left; 
+    
+}
+/** Sección contacto*/
+
+.contacto{
+    background-color: #f9f6f6; 
+    padding: 50px 15px 30px 15px;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+}
+.contacto .p{
+    margin-top: 20px;
+    padding: 20px;
+}
+.contacto .formulario-contenedor{
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(93, 91, 91, 0.669);
+    border: 2px solid #F02E2E;
+  }
+  
+  .contacto .formulario-contenedor .form input{
+    width: 90%;
+    height: 30px;
+    margin: 0.5px;
+  }
+  
+  .contacto .formulario-contenedor .button{
+    padding: 0.5px 1px;
+    border: 1px solid #F02E2E;
+    background:#F02E2E ;
+    cursor: pointer;
+
+  }
+    
